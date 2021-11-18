@@ -1,0 +1,12 @@
+h1, p {
+  font-family: Lato;
+}
+label{
+  margin: 10px;
+}
+input{
+  margin: 10px;
+}
+.login-button{
+  margin: 10px;
+}
