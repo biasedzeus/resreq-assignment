@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './style.css';
-import Login from '../Components/Login';
-import SignUp from '../Components/SignUp';
+import Login from './Components/Login';
+import SignUp from './Components/SignUp';
+import Home from './Pages/Home'
 import axios from 'axios';
 
 export default function App() {
@@ -11,9 +12,8 @@ export default function App() {
 
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-
+      
+      <Home/>
       {/* <Login handleLogin={handleLogin}/> */}
       <SignUp />
     </div>
