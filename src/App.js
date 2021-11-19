@@ -15,7 +15,7 @@ export default function App() {
       
       <Home/>
       {/* <Login handleLogin={handleLogin}/> */}
-      <SignUp />
+      {/* <SignUp /> */}
     </div>
   );
 }
